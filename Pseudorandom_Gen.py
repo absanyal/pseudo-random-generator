@@ -1,5 +1,3 @@
-import matplotlib.pyplot as plt
-
 # XOR function
 
 
@@ -69,5 +67,3 @@ while (i < stop_val):
     x = ShiftR(x)
     x[0] = NOT(XOR(x[len(x) - 1], x[len(x) - 2]))
     i += 1
-
-plt.hist(randlist, bins=10, normed=True)
